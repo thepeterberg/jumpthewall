@@ -1,0 +1,18 @@
+{
+  "name": "A browser action which changes CSS elements to get around paywalls and anti-ad blockers",
+  "description": "Remove CSS paywalls or ad blocker blockage",
+  "version": "0.1",
+  "permissions": [
+    "activeTab"
+  ],
+    "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+      "default_title": "Unblock the page",
+      "default_icon": "icon.png",
+//      "default_popup": "popup.html"
+  },
+  "manifest_version": 1
+}
